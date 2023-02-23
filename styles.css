@@ -1,0 +1,153 @@
+@font-face {
+    /*ESTA LINEA AÑADE LA FUENTE DESCARGADA*/
+    font-family: '';
+    src: url();
+}
+
+body {
+    /* ESTA LINEA CENTRA EL TEXTO*/
+    text-align: center;
+    margin: 20px;
+    /*ESTA LINEA AFECTA LA FUENTE*/
+    font-size: larger;
+    font-style: italic;
+}
+
+.header {
+    /*ESTA LINEA AFECTA EL TITULO*/
+    width: 100%;
+    height: 100%;
+    /*ESTA LINEA AFECTA LOS COLORES*/
+    background-color: black;
+    color: #FFF0C9;
+    ;
+    /*ESTA LINEA AFECTA EL DISEÑO*/
+    font-family: 'TLOU';
+    border: 4px white solid;
+    border-radius: 20px;
+    margin-bottom: 75px;
+}
+
+body {
+    background-image: url('IMG/Papelviejo.png');
+    /*ESTA LINEA HACE QUE EL FONDO CUBRA TODA LA PAGINA*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /*ESTA LINEA CAMBIA LOS COLORES*/
+    color: black;
+}
+
+.list h2 {
+    /*ESTA LINEA CAMBIA LA LISTA*/
+    text-align: justify;
+    margin-bottom: 40px;
+    padding-bottom: 140px;
+}
+.img{
+    height: 80%;
+    width: 80%;
+}
+
+img {
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px white;
+    /*ESTA LINEA CAMBIA LOS BORDES DE LAS IMG*/
+    border: 6px solid black;
+    border-radius: 20px;
+    /*ESTA LINEA ESTABLECE EL TAMAÑO DE LA IMAGEN*/
+    width: 350px;
+    height: 350px;
+
+}
+
+hr {
+    /*ESTA LINEA CAMBIA EL COLOR DE LA ETIQUETA HR*/
+    border-color: black;
+}
+
+.left {
+    /*Esta linea hace que las imagenes estén a la Izquierda*/
+    float: left;
+}
+
+.right {
+    /*Esta linea hace que las imagenes estén a la derecha*/
+    float: right;
+}
+
+.lar {
+    /*ESTA LINEA AUMENTA EL TAMAÑO DE LA LETRA*/
+    font-size: x-large;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.tloumusic{
+    /*ESTA LINEA EDTA Y DISEÑA EL DIV QUE TIENE LA MUSICA*/
+    color: #FFF0C9;/*colores*/
+    position: fixed;/*que baje con el scroll*/
+    min-height: 120px;
+    width: 252px;
+    word-wrap: break-word;
+    text-align: left;/*que este a la izquierda*/
+    margin: auto 0;
+}
+button{
+    /*ESTA LINEA LE DA DISEÑO AL BOTÓN  DE MÚSICA*/
+    border: white 4px solid;
+    border-radius: 10px;
+    background-color: black;
+    color: #FFF0C9;
+    font-size: larger;
+
+}
+.button{
+    /*ESTA LINEA EDITA EL BOTON DE DENTRO DE LA MUSICA*/
+    position: fixed;
+    min-height: 100%;
+    width: 25px;
+    word-wrap: break-word;
+    text-align: left;
+    margin: auto 0;
+
+}
+.music-header{
+    width: 100%;
+    height: 100%;
+    color: #FFF0C9;
+}
+h5{
+    border: white 4px solid;
+    border-radius: 20px;
+    background-color: black;
+
+}
+footer{
+    background-color: black;
+    color: #FFF0C9;
+    border: #FFF0C9 4px solid;
+}
+a :hover{
+    color: deepskyblue;
+}
+a  :link{
+    color: white
+}
+a{
+    color: #FFF0C9;
+}
+.year{
+    text-align: right;
+}
+.REED{
+    padding: 20px;
+}
