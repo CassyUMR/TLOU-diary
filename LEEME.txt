@@ -1,0 +1,1 @@
+Diario informativo sobre The Last Of Us, tanto parte I como parte II como la serie, echo con HTML, CSS Y Javascript
